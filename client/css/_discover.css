@@ -1,0 +1,101 @@
+.discoverNFT-container{
+  max-width: 1250px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discoverNFT-section{
+  max-width: 900px;
+  width: 100%;
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 55px;
+}
+.discoverNFT__title{
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+  letter-spacing: -0.003em;
+  color: var(--color-yellow);
+}
+.discoverNFT-form{
+  padding: 20px;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.09);
+	-webkit-backdrop-filter: blur(1px);
+	backdrop-filter: blur(10px);
+  border-radius: 20px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  transition: .7s;
+}
+.discoverNFT__label{
+  font-size: 22px;
+  color: var(--color-green);
+  cursor: pointer;
+}
+.discoverNFT__input{
+  width: 300px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  outline: none;
+  color: var(--color-white);
+}
+.discoverNFT__input::placeholder{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--color-grey);
+}
+.postNFT__card{
+  position: relative;
+  background: rgba(255, 255, 255, 0.121);
+	-webkit-backdrop-filter: blur(1px);
+	backdrop-filter: blur(10px);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  color: var(--color-grey);
+  align-items: center;
+  font-size: 25px;
+  font-weight: 900;
+  transition: all .2s ease-in ;
+}
+.postNFT__card:hover:after{
+  position: absolute;
+  content: 'Add Card';
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-dark-grey);
+  font-family: 'Arial' , sans-serif;
+  width: 100px;
+  padding: 3px 0px;
+  border-radius: 6px;
+  top: 55px;
+  text-align: center;
+  transition: all .2s ease-in ;
+}
+.postNFT__card:hover{
+  background: rgba(183, 0, 255, 0.426);
+	-webkit-backdrop-filter: blur(1px);
+	backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px  rgba(183, 0, 255, 0.556);
+  color: var(--color-white);
+  font-weight: 900;
+}

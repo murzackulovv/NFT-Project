@@ -1,0 +1,58 @@
+@import './_header.css';
+@import './_discover.css';
+@import './_nftItem.css';
+@import './_modal.css';
+@import './_tryOur.css';
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 0px; 
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #939393; 
+}
+body::-webkit-scrollbar-track {
+  background-color: #ffffff; 
+}
+
+body {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #000000 #ffffff; 
+  padding-bottom: 100px;
+  background-image: linear-gradient(to right, #000314 0%, rgb(0, 4, 24) 100%);
+
+}
+
+:root{
+  --color-dollar: rgb(9, 255, 0);
+  --color-bg-body: #000316;
+  --color-bgc-body: #020013;
+  --color-green: rgb(0, 255, 179);
+  --color-green-shadow: rgba(0, 255, 179, 0.29);
+  --color-yellow: rgb(255, 221, 0);
+  --color-pink: rgb(238, 0, 255);
+  --color-light-pink: rgb(250, 186, 255);
+  --color-dark-grey: #707070;
+  --color-light-grey: #ededed;
+  --color-grey: #d3d3d3;
+  --color-red: #ff0000;
+  --color-black: rgb(0, 0, 0);
+  --color-white: #fff;
+  --input-border-color: #A6BCDA;
+}
+
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
